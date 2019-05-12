@@ -76,6 +76,7 @@ bot.on('message',  message => {
    }
    if(message.content === 'C help'){
       message.channel.send(message.author + ' so far there is ')
+      message.channel.send('C help for all list of command ')
       message.channel.send('addshiva (add role Shiva) / remshiva (remove role Shiva)')
       message.channel.send('addeur (add role Europe) / remeur (remove role Europe)')
       message.channel.send('addalex (add role Alexiel) / remalex (remove role Alexiel)')
