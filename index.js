@@ -77,7 +77,7 @@ bot.on('message',  message => {
     if(message.content === 'addUbaha'){
       message.channel.send(message.author + ', you will be add to Ultimate Bahamut Role')
       let memberRole10 = message.member.guild.roles.find('name','Ubaha')
-      message.member.removeRole(memberRole10)
+      message.member.addRole(memberRole10)
    }
    if(message.content === 'remUbaha'){
       message.channel.send(message.author + ', you will be remove from Ultimate Bahamut Role')
