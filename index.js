@@ -75,8 +75,13 @@ bot.on('message',  message => {
       message.member.removeRole(memberRole11)
    }
    if(message.content === 'C help'){
-      message.channel.send(message.author + ' so far there is add and remove role feature on (shiva, grim, alex, eur, meta, and ava)')
-      message.channel.send('example : addava / remava')
+      message.channel.send(message.author + ' so far there is ')
+      message.channel.send('example : addshiva (add role Shiva) / remshiva (remove role Shiva)')
+      message.channel.send('example : addeur (add role Europe) / remeur (remove role Europe)')
+      message.channel.send('example : addalex (add role Alexiel) / remalex (remove role Alexiel)')
+      message.channel.send('example : addgrim (add role Grimnir) / remgrim (remove role Grimnir)')
+      message.channel.send('example : addmeta (add role Metatron) / remmeta (remove role Metatron)')
+      message.channel.send('example : addava (add role Avatar) / remava (remove role Avatar)')
    }
 })
 
