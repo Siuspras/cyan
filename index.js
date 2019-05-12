@@ -74,6 +74,17 @@ bot.on('message',  message => {
       let memberRole11 = message.member.guild.roles.find('name','Avatar')
       message.member.removeRole(memberRole11)
    }
+    if(message.content === 'addUbaha'){
+      message.channel.send(message.author + ', you will be remove from Ultimate Bahamut Role')
+      let memberRole10 = message.member.guild.roles.find('name','Ubaha')
+      message.member.removeRole(memberRole10)
+   }
+   if(message.content === 'remUbaha'){
+      message.channel.send(message.author + ', you will be remove from Ultimate Bahamut Role')
+      let memberRole11 = message.member.guild.roles.find('name','Ubaha')
+      message.member.removeRole(memberRole11)
+   }
+
    if(message.content === 'C help'){
       message.channel.send(message.author + ' so far there is ')
       message.channel.send('C help for all list of command ')
@@ -84,6 +95,7 @@ bot.on('message',  message => {
       message.channel.send('addgrim (add role Grimnir)  / remgrim (remove role Grimnir)')
       message.channel.send('addmeta (add role Metatron)  / remmeta (remove role Metatron)')
       message.channel.send('addava (add role Avatar)  / remava (remove role Avatar)')
+      message.channel.send('addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)')
    }
 })
 
