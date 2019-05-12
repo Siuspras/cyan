@@ -2,8 +2,8 @@
   "name": "Bot-ROLE",
   "version": "1.0.0",
   "description": "",
-  "main": " ",
-  "scripts": {
+  "main": " index.js ",
+  "scripts: {
     "test": " "
   },
   "repository": {
