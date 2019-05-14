@@ -137,7 +137,21 @@ bot.on('message',  message => {
 
    if(message.content === 'C help'){
       message.channel.send(message.author + ' so far there is ')
-      message.channel.send('1- C help for all list of command\n2- C ColoGrid for Magna Colosus Grid, C AgniGrid for Primal Agni Grid\n3- C LeviGrid for Magna Leviathan Grid, C AgniGrid for Primal Agni Grid\n4- C YggGrid for Magna Yggdrasil Grid, C TitanGrid for Primal Titan Grid\n5- C TiamatGrid for Magna Tiamat Grid, C ZephyGrid for Primal Zephyrus Grid\n6- C CelesGrid for Magna Celeste Grid, C HadesGrid for Primal Hades Grid\n7- C ChevGrid for Magna Chevalier Grid, C ZeusGrid for Primal Zeus Grid\n8- ping for . . . \n9- addshiva (add role Shiva)  / remshiva (remove role Shiva)\n10- addeur (add role Europe)  / remeur (remove role Europe)\n11- addalex (add role Alexiel)  / remalex (remove role Alexiel)\n12- addgrim (add role Grimnir)  / remgrim (remove role Grimnir)\n13- addmeta (add role Metatron)  / remmeta (remove role Metatron)\n14- addava (add role Avatar)  / remava (remove role Avatar)\n15- addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)');
+      message.channel.send('1 - C help for all list of command\n' +
+      '2 - C ColoGrid for Magna Colosus Grid, C AgniGrid for Primal Agni Grid\n'+
+      '3 - C LeviGrid for Magna Leviathan Grid, C AgniGrid for Primal Agni Grid\n'+ 
+      '4 - C YggGrid for Magna Yggdrasil Grid, C TitanGrid for Primal Titan Grid\n'+
+      '5 - C TiamatGrid for Magna Tiamat Grid, C ZephyGrid for Primal Zephyrus Grid\n'+
+      '6 - C CelesGrid for Magna Celeste Grid, C HadesGrid for Primal Hades Grid\n'+
+      '7 - C ChevGrid for Magna Chevalier Grid, C ZeusGrid for Primal Zeus Grid\n'+
+      '8 - Ping for . . . \n'+
+      '9 - Addshiva (add role Shiva)  / remshiva (remove role Shiva)\n'+
+      '10- Addeur (add role Europe)  / remeur (remove role Europe)\n'+
+      '11- Addalex (add role Alexiel)  / remalex (remove role Alexiel)\n'+
+      '12- Addgrim (add role Grimnir)  / remgrim (remove role Grimnir)\n'+
+      '13- Addmeta (add role Metatron)  / remmeta (remove role Metatron)\n'+
+      '14- Addava (add role Avatar)  / remava (remove role Avatar)\n'+
+      '15- AddUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)');
    }
 })
 
