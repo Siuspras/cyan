@@ -84,11 +84,67 @@ bot.on('message',  message => {
       let memberRole13 = message.member.guild.roles.find('name','Ubaha')
       message.member.removeRole(memberRole13)
    }
+   if(message.content === 'C ColoGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/47075')
+   }
+   if(message.content === 'C LeviGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/47186')
+   }
+   if(message.content === 'C YggGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/47428')
+   }
+   if(message.content === 'C TiamatGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/47217')
+   }
+   if(message.content === 'C CelesGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/47695')
+   }
+   if(message.content === 'C ChevGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/47571')
+   }
+   if(message.content === 'C AgniGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21595')
+   }
+   if(message.content === 'C VarunaGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21615')
+   }
+   if(message.content === 'C TitanGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21593')
+   }
+   if(message.content === 'C ZephyGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21597')
+   }
+   if(message.content === 'C HadesGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21604')
+   }
+   if(message.content === 'C ZeusGrid'){
+      message.channel.send(message.author +', here is the link for your reference')
+      message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21596')
+   }
+
+
 
    if(message.content === 'C help'){
       message.channel.send(message.author + ' so far there is ')
       message.channel.send('C help for all list of command ')
-       message.channel.send('ping for . . . ')
+      message.channel.send('C ColoGrid for Magna Colosus Grid, C AgniGrid for Primal Agni Grid')
+      message.channel.send('C LeviGrid for Magna Leviathan Grid, C AgniGrid for Primal Agni Grid')
+      message.channel.send('C YggGrid for Magna Yggdrasil Grid, C TitanGrid for Primal Titan Grid')
+      message.channel.send('C TiamatGrid for Magna Tiamat Grid, C ZephyGrid for Primal Zephyrus Grid')
+      message.channel.send('C CelesGrid for Magna Celeste Grid, C HadesGrid for Primal Hades Grid')
+      message.channel.send('C ChevGrid for Magna Chevalier Grid, C ZeusGrid for Primal Zeus Grid')
+      message.channel.send('ping for . . . ')
       message.channel.send('addshiva (add role Shiva)  / remshiva (remove role Shiva)')
       message.channel.send('addeur (add role Europe)  / remeur (remove role Europe)')
       message.channel.send('addalex (add role Alexiel)  / remalex (remove role Alexiel)')
@@ -96,6 +152,8 @@ bot.on('message',  message => {
       message.channel.send('addmeta (add role Metatron)  / remmeta (remove role Metatron)')
       message.channel.send('addava (add role Avatar)  / remava (remove role Avatar)')
       message.channel.send('addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)')
+      
+      
    }
 })
 
