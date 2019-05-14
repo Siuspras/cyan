@@ -7,9 +7,9 @@ bot.on('ready', () =>{
 })
 bot.on('message',  message => {
    if(message.content === 'ping')
-   message.channel.send('pong')
+   message.channel.send('pong!')
    
-   if(message.content === 'test'){
+   if(message.content === 'C test'){
       message.channel.send('yes this is a test on test ' + message.author)
    }
    
@@ -20,13 +20,13 @@ bot.on('message',  message => {
    }
    if(message.content === 'remalex'){
       message.channel.send(message.author + ', you will be remove from Alexiel Role')
-      let memberRole1 = message.member.guild.roles.find('name','Alexiel')
-      message.member.removeRole(memberRole1)
+      let memberRole2 = message.member.guild.roles.find('name','Alexiel')
+      message.member.removeRole(memberRole2)
    }
    if(message.content === 'addgrim'){
       message.channel.send(message.author + ', you will be add to Grimnir Role')
-      let memberRole2 = message.member.guild.roles.find('name','Grimnir')
-      message.member.addRole(memberRole2)
+      let memberRole3 = message.member.guild.roles.find('name','Grimnir')
+      message.member.addRole(memberRole3)
    }
    if(message.content === 'remgrim'){
       message.channel.send(message.author + ', you will be remove from Grimnir Role')
@@ -74,9 +74,28 @@ bot.on('message',  message => {
       let memberRole11 = message.member.guild.roles.find('name','Avatar')
       message.member.removeRole(memberRole11)
    }
+    if(message.content === 'addUbaha'){
+      message.channel.send(message.author + ', you will be add to Ultimate Bahamut Role')
+      let memberRole12 = message.member.guild.roles.find('name','Ubaha')
+      message.member.addRole(memberRole12)
+   }
+   if(message.content === 'remUbaha'){
+      message.channel.send(message.author + ', you will be remove from Ultimate Bahamut Role')
+      let memberRole13 = message.member.guild.roles.find('name','Ubaha')
+      message.member.removeRole(memberRole13)
+   }
+
    if(message.content === 'C help'){
-      message.channel.send(message.author + ' so far there is add and remove role feature on (shiva, grim, alex, eur, meta, and ava)')
-      message.channel.send('example : addava / remava')
+      message.channel.send(message.author + ' so far there is ')
+      message.channel.send('C help for all list of command ')
+       message.channel.send('ping for . . . ')
+      message.channel.send('addshiva (add role Shiva)  / remshiva (remove role Shiva)')
+      message.channel.send('addeur (add role Europe)  / remeur (remove role Europe)')
+      message.channel.send('addalex (add role Alexiel)  / remalex (remove role Alexiel)')
+      message.channel.send('addgrim (add role Grimnir)  / remgrim (remove role Grimnir)')
+      message.channel.send('addmeta (add role Metatron)  / remmeta (remove role Metatron)')
+      message.channel.send('addava (add role Avatar)  / remava (remove role Avatar)')
+      message.channel.send('addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)')
    }
 })
 
