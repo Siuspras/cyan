@@ -137,8 +137,8 @@ bot.on('message',  message => {
 
    if(message.content === 'C help'){
       message.channel.send(message.author + ' so far there is ')
-      message.channel.send('1- C help for all list of command //n 2- C ColoGrid for Magna Colosus Grid, C AgniGrid for Primal Agni Grid')
-      message.channel.send('')
+      message.channel.send('1- C help for all list of command ')
+      message.channel.send('2- C ColoGrid for Magna Colosus Grid, C AgniGrid for Primal Agni Grid')
       message.channel.send('3- C LeviGrid for Magna Leviathan Grid, C AgniGrid for Primal Agni Grid')
       message.channel.send('4- C YggGrid for Magna Yggdrasil Grid, C TitanGrid for Primal Titan Grid')
       message.channel.send('5- C TiamatGrid for Magna Tiamat Grid, C ZephyGrid for Primal Zephyrus Grid')
