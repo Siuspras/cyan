@@ -74,14 +74,24 @@ bot.on('message',  message => {
       let memberRole11 = message.member.guild.roles.find('name','Avatar')
       message.member.removeRole(memberRole11)
    }
-    if(message.content === 'addUbaha'){
+    if(message.content === 'addubaha'){
       message.channel.send(message.author + ', you will be add to Ultimate Bahamut Role')
       let memberRole12 = message.member.guild.roles.find('name','Ubaha')
       message.member.addRole(memberRole12)
    }
-   if(message.content === 'remUbaha'){
+   if(message.content === 'remubaha'){
       message.channel.send(message.author + ', you will be remove from Ultimate Bahamut Role')
       let memberRole13 = message.member.guild.roles.find('name','Ubaha')
+      message.member.removeRole(memberRole13)
+   }
+   if(message.content === 'addubahaHL'){
+      message.channel.send(message.author + ', you will be add to Ubaha HL Role')
+      let memberRole12 = message.member.guild.roles.find('name','UbahaHl')
+      message.member.addRole(memberRole12)
+   }
+   if(message.content === 'remubahaHL'){
+      message.channel.send(message.author + ', you will be remove from UBaha HL Role')
+      let memberRole13 = message.member.guild.roles.find('name','UbahaHl')
       message.member.removeRole(memberRole13)
    }
    if(message.content === 'C ColoGrid'){
@@ -145,13 +155,14 @@ bot.on('message',  message => {
       '6 - C CelesGrid for Magna Celeste Grid, C HadesGrid for Primal Hades Grid\n'+
       '7 - C ChevGrid for Magna Chevalier Grid, C ZeusGrid for Primal Zeus Grid\n'+
       '8 - Ping for . . . \n'+
-      '9 - Addshiva (add role Shiva)  / remshiva (remove role Shiva)\n'+
-      '10- Addeur (add role Europe)  / remeur (remove role Europe)\n'+
-      '11- Addalex (add role Alexiel)  / remalex (remove role Alexiel)\n'+
-      '12- Addgrim (add role Grimnir)  / remgrim (remove role Grimnir)\n'+
-      '13- Addmeta (add role Metatron)  / remmeta (remove role Metatron)\n'+
-      '14- Addava (add role Avatar)  / remava (remove role Avatar)\n'+
-      '15- AddUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)');
+      '9 - addshiva (add role Shiva)  / remshiva (remove role Shiva)\n'+
+      '10- addeur (add role Europe)  / remeur (remove role Europe)\n'+
+      '11- addalex (add role Alexiel)  / remalex (remove role Alexiel)\n'+
+      '12- addgrim (add role Grimnir)  / remgrim (remove role Grimnir)\n'+
+      '13- addmeta (add role Metatron)  / remmeta (remove role Metatron)\n'+
+      '14- addava (add role Avatar)  / remava (remove role Avatar)\n'+
+      '15- addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)\n'+
+      '16- addubahaHL (add role Ubahamut Hl) / remubahaHL (remove role Ubahamut HL)');
    }
 })
 
