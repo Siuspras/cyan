@@ -19,6 +19,7 @@ function processCommand(message){
    let primaryCommand = splitCommand[0]
    let arguments = splitCommand.slice(1)
 
+   console.log("User :" + message.author)
    console.log("Command Received "+ primaryCommand)
    console.log("Arguments : "+arguments)
 
