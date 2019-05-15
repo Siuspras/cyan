@@ -6,9 +6,6 @@ bot.on('ready', () =>{
    console.log(' this bot is online ! ');
 })
 bot.on('message',  message => {
-   if(message.content.author == client.user) { 
-      return
-  }
    if(message.content.startsWith("!")) {
       processCommand(command)
   }
