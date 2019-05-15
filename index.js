@@ -14,7 +14,7 @@ bot.on('message',  (message) => {
 })
 
 function processCommand(message){
-   let fullCommand = command.content.substr(1)
+   let fullCommand = message.content.substr(1)
    let splitCommand = FullCommand.split(" ")
    let primaryCommand = splitCommand[0]
    let arguments = splitCommand.slice(1)
