@@ -158,7 +158,7 @@ function processCommand(message){
 
    if(fullCommand === 'c help'){
       message.channel.send(message.author + ' so far there is ')
-      message.channel.send('1 - C help for all list of command\n' +
+      message.channel.send('1 - !c help for all list of command\n' +
       '2 - !c ColoGrid for Magna Colosus Grid, !c AgniGrid for Primal Agni Grid\n'+
       '3 - !c LeviGrid for Magna Leviathan Grid, !c AgniGrid for Primal Agni Grid\n'+ 
       '4 - !c YggGrid for Magna Yggdrasil Grid, !c TitanGrid for Primal Titan Grid\n'+
