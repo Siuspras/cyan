@@ -6,14 +6,14 @@ bot.on('ready', () =>{
    console.log(' this bot is online ! ');
 
 })
-bot.on('message',  message => {
+bot.on('message',  (message) => {
    if(message.content.startsWith("!")) {
-      processCommand(receivedMessage)
+      processCommand(message)
   }
 
 })
 
-function processCommand(receivedMessage){
+function processCommand(message){
    let fullCommand = command.content.substr(1)
    let splitCommand = FullCommand.split(" ")
    let primaryCommand = splitCommand[0]
