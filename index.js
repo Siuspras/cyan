@@ -156,24 +156,24 @@ function processCommand(message){
       message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21596')
    }
 
-   if(fullCommand === 'c help'){
+   if(fullCommand === '!c help'){
       message.channel.send(message.author + ' so far there is ')
       message.channel.send('1 - C help for all list of command\n' +
-      '2 - C ColoGrid for Magna Colosus Grid, C AgniGrid for Primal Agni Grid\n'+
-      '3 - C LeviGrid for Magna Leviathan Grid, C AgniGrid for Primal Agni Grid\n'+ 
-      '4 - C YggGrid for Magna Yggdrasil Grid, C TitanGrid for Primal Titan Grid\n'+
-      '5 - C TiamatGrid for Magna Tiamat Grid, C ZephyGrid for Primal Zephyrus Grid\n'+
-      '6 - C CelesGrid for Magna Celeste Grid, C HadesGrid for Primal Hades Grid\n'+
-      '7 - C ChevGrid for Magna Chevalier Grid, C ZeusGrid for Primal Zeus Grid\n'+
+      '2 - !c ColoGrid for Magna Colosus Grid, !c AgniGrid for Primal Agni Grid\n'+
+      '3 - !c LeviGrid for Magna Leviathan Grid, !c AgniGrid for Primal Agni Grid\n'+ 
+      '4 - !c YggGrid for Magna Yggdrasil Grid, !c TitanGrid for Primal Titan Grid\n'+
+      '5 - !c TiamatGrid for Magna Tiamat Grid, !c ZephyGrid for Primal Zephyrus Grid\n'+
+      '6 - !c CelesGrid for Magna Celeste Grid, !c HadesGrid for Primal Hades Grid\n'+
+      '7 - !c ChevGrid for Magna Chevalier Grid, !c ZeusGrid for Primal Zeus Grid\n'+
       '8 - Ping for . . . \n'+
-      '9 - addshiva (add role Shiva)  / remshiva (remove role Shiva)\n'+
-      '10- addeur (add role Europe)  / remeur (remove role Europe)\n'+
-      '11- addalex (add role Alexiel)  / remalex (remove role Alexiel)\n'+
-      '12- addgrim (add role Grimnir)  / remgrim (remove role Grimnir)\n'+
-      '13- addmeta (add role Metatron)  / remmeta (remove role Metatron)\n'+
-      '14- addava (add role Avatar)  / remava (remove role Avatar)\n'+
-      '15- addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)\n'+
-      '16- addubahaHL (add role Ubahamut Hl) / remubahaHL (remove role Ubahamut HL)');
+      '9 - !c addshiva (add role Shiva)  / !c remshiva (remove role Shiva)\n'+
+      '10- !c addeur (add role Europe)  / !c remeur (remove role Europe)\n'+
+      '11- !c addalex (add role Alexiel)  / !c remalex (remove role Alexiel)\n'+
+      '12- !c addgrim (add role Grimnir)  / !c remgrim (remove role Grimnir)\n'+
+      '13- !c addmeta (add role Metatron)  / !c remmeta (remove role Metatron)\n'+
+      '14- !c addava (add role Avatar)  / !c remava (remove role Avatar)\n'+
+      '15- !c addUbaha (add role UltimateBahamut)  / !c remUbaha (remove role UltimateBahamut)\n'+
+      '16- !c addubahaHL (add role Ubahamut Hl) / !c remubahaHL (remove role Ubahamut HL)');
    }
 }
 
