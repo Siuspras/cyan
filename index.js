@@ -177,7 +177,7 @@ function processCommand(message){
    }
 
    else {
-      receivedMessage.channel.send("I don't undestand the command. try '!c help' for more commands")
+      message.channel.send("I don't undestand the command. try '!c help' for more commands")
    }
 }
 
