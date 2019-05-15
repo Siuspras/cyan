@@ -156,7 +156,7 @@ function processCommand(message){
       message.channel.send('グランブルーファンタジー.gamewith.jp/article/show/21596')
    }
 
-   if(fullCommand === '!c help'){
+   if(fullCommand === 'c help'){
       message.channel.send(message.author + ' so far there is ')
       message.channel.send('1 - C help for all list of command\n' +
       '2 - !c ColoGrid for Magna Colosus Grid, !c AgniGrid for Primal Agni Grid\n'+
