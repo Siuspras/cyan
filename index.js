@@ -175,10 +175,6 @@ function processCommand(message){
       '15- addUbaha (add role UltimateBahamut)  / remUbaha (remove role UltimateBahamut)\n'+
       '16- addubahaHL (add role Ubahamut Hl) / remubahaHL (remove role Ubahamut HL)');
    }
-
-   else {
-      message.channel.send("I don't undestand the command. try '!c help' for more commands")
-   }
 }
 
 bot.login(token);
