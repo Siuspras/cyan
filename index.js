@@ -4,15 +4,16 @@ const token = 'NTc3MDY0MzY3MjY3NTEyMzMw.XNfnNw.Pf4U0gVdMZMjJWmiyrqmlpqUfMY';
 
 bot.on('ready', () =>{
    console.log(' this bot is online ! ');
+
 })
 bot.on('message',  message => {
    if(message.content.startsWith("!")) {
-      processCommand(command)
+      processCommand(receivedMessage)
   }
 
 })
 
-function processCommand(command){
+function processCommand(receivedMessage){
    let fullCommand = command.content.substr(1)
    let splitCommand = FullCommand.split(" ")
    let primaryCommand = splitCommand[0]
